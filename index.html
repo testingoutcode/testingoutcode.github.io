@@ -1,100 +1,135 @@
 <!DOCTYPE html>
 <html>
 	<head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111160453-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'UA-111160453-1');
-        </script>
-
-        <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
-        <title>Beta</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+		<link rel="shortcut icon" href="assets/img/logo.png">
+		<title>Testing</title>
 	</head>
 	<body>
-    <div id="content">
-        <section id="landing">
-            <div class="name">Hi, I'm Anjali</div>
-            <div id="intro">
-                <p>I'm a sophomore at UC Berkeley studying :/. </p>
+		<!-- <div id="welcome">HELLO</div> -->
+		<div id="content">
+			<div class="half" id="left">
+				<div class="mobilenav"> &#62; </div>
+				<div class="name">Test</div>
+				<div class="title" id="about">about</div>
+				<div class="color" id="leftcolor"></div>
 
-                <p>I write for <a href="http://dailycal.org" target="_blank">The Daily Californian</a>, am an organizer for the <a href="https:/www.berkeleyflejcon.org/" target="_blank">Financial Literacy and Economic Justice Conference</a>, and am a research for <a href="https://dlab.berkeley.edu">UC Berkeley's D-Lab</a>.</p>
-                <p>Thanks for stopping by!</p>
-            </div>
-            <div id="nav">
-                <a href="#activities" id="activities-link">What I do</a>
-                <a href="#portfolio" id="portfolio-link">Things I've made</a>
-                <a href="#contact" id="contact-link">Contact</a>
-            </div>
-        </section>
-        <section id="activities">
-            <div class="name">What I do</div>
-            <div id="mobile-activities"></div>
-            <div id="together">
-                <div id="tasks"></div>
-                <div id="description">
-                    <p>Hover over each link on the left to learn more about each of them!</p>
-                </div>
-                <div id="background-img"><img src=""></div>
-            </div>
-        </section> 
+				<!-- about: text -->
+				<div class="aboutsection">
+					<div id="texttitle">Hi, I'm <span class="lo">Test</span>!</div>
+					<div id="text">I'm currently a sophomore studying <span class="lo">computer science</span> and <span class="lo">cognitive science</span> at <span class="lo">UC Berkeley.</span> This website is an online collection of what I create: <span class="lo">computery things, designy things, and artsy things.</span>
+					I enjoy 0.36mm ink pens, sans serif fonts, taking pictures, and lifting heavy things and putting them down.</div>
+					<br>
+					<span class="lo">Currently, I'm...</span>
+					<ul>
+						<li><a href="http://wdd.io">teaching web design at UC Berkeley</a></li>
+						<li><a href="http://cs61a.org">a tutor for UC Berkeley's introduction to CS course</a></li>
+						<li><a href="http://projects.dailycal.org">making graphics and data-driven stories for the Daily Cal</a></li>
+                        <li><a href="http://innovativedesign.club">designing on the blue team in Innovative Design</a></li>
+						<li><a href="http://google.com">excited to be a EP intern at Google this summer (again!)</a></li>
+					</ul>
+					<br><br>
+					Contact me at ewwijsheajek[at]gmail[dot]com
+					<br>
+					<!-- <a href= "https://www.behance.net/emilyzhong">Check me out on Behance!</a> -->
+				</div>
+
+				<!-- work: text -->
+				<div class="work">
+				<div class="cs"></div>
+				<div class="design">
+					<div class="textcontainer">
+	
+
+						<div class="textgroup 5">
+							<div class="descriptitle"><a href = "https://www.behance.net/gallery/45782135/Nutrition-Label-Redesign" target="_blank">Nutrition Label Redesign</a></div>
+							<div class="description">I created a nutrition label redesign that focused on representing nutritional data in a more visual manner and increasing comprehensiveness of what nutrients were beneficial or detrimental.</div><br><br>
+							<div class="behance"><a href = "https://www.behance.net/gallery/45782135/Nutrition-Label-Redesign" target="_blank">Click for the full documentation of my design process and research on Behance. </a></div>
+						</div>
+
+						<!-- <div class="textgroup 8">
+							<div class="descriptitle">Summer in the Studio</div>
+							<div class="mediums">18"x24" Charcoal | 2015</div>
+							<div class="description">Summer in the art studio is broken air conditioning. Students scramble to sit in front of the industrial fan's blasts of hot air, breaking the stagnancy of summer in the studio.</div>
+						</div> -->
+					</div>
+				</div>
+				<div class="art">
+					<div class="textcontainer">
+						<div class="textgroup 1">
+							<div class="descriptitle">Analysis</div>
+							<div class="mediums">Plotly | 2018</div>
+							<div class="description">"Smoke and mirrors" is an idiom that references magic tricks, suggesting trickery or deception. While I may not intentionally deceive others, I find a form on unconscious deception, as the way I view myself is different from how others perceive me.</div>
+						</div>
 
 
-        <section id="portfolio">
-            <div class="name">Things I've made</div>
-            <div id="cards-container">
-                <div class="card">
-		    <img src="assets/art.png">
-                    <div class="card-title">
-                        Programming                        
-                    </div>
-                    <ul class="card-links">
-                        <li><a href="" class="coming-soon">LSC</a></li>
-                        <li><a href="" class="coming-soon">Titanic</a></li>
-                    </ul>
-                </div>
-                <div class="card">
-		    <img src="assets/art.png">
-                    <div class="card-title">
-                        Design                       
-                    </div>
-                    <ul class="card-links">
-                        <li><a href="" class="coming-soon">Moon</a></li>
-                        <li><a href="" class="coming-soon">Veggies</a></li>
-                    </ul>
-                </div>
-                <!-- <div class="card">
-                    <div class="card-title">
-                        Writing                      
-                    </div>
-                    <ul class="card-links">
-                        <li><a href="" class="coming-soon">Aziz</a></li>
-                        <li><a href="" class="coming-soon">AlSayyad</a></li>
-                        <li><a href="" class="coming-soon">Sigma Chi</a></li>
-                    </ul>
-                </div> -->
-            </div>
-        </section>
-        <section id="contact">
-            <div id="background-fill"></div>
-            <div class="name">Contact Me!</div>
-            <p>You can find and learn more about me at the links below.</p>
-            <ul id="contacts">
-                <li><a href="assets/ Resume.pdf" target="_blank">Resume</a></li>
-                <li><a href="mailto:ashrivastava@dailycal.org" target="_blank">Email</a></li>
-                <li><a href="https://linkedin.com/in/anjali" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/vastava" target="_blank">Github</a></li>
-                <li><a href="https://twitter.com/anjalii_shrivas" target="_blank">Twitter</a></li>
-            </ul>
-        </section>
-    </div>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="half" id="right">
+				<div class="mobilenav"> &#60; </div>
+				<div class="name">test</div>
+				<div class="title" id="work">work</div>
+				<div class="color" id="rightcolor"></div>
+
+				<!-- about: picture -->
+				<div class="aboutsection">
+					<img id="me-picture" src="assets/img/generic-head-silhouette.jpg">
+				</div>
+
+				<!-- work: pictures -->
+				<div class="work">
+				<div id="navbar">
+					<div class="navitem" id="cs">CS</div>
+					<div class="navitem" id="design">Design</div>
+					<div class="navitem" id="art">Art</div>
+				</div>
+				<div id="expandoverlay">
+					<div id="exit">x</div>
+					<div id="expandedimage"></div>
+				</div>
+
+				<div class="cs">Will be updated soon!</div>
+				<div class="design">
+					<div class="picturecontainer">
+						<div class="picturetile">
+							<div class="overlay 5">
+								<div class="arttitle">Analysis</div>
+							</div>
+							<img class="picture" src="assets/img/art/plot.png">
+							<a class="link" href="https://www.behance.net/gallery/45782135/Nutrition-Label-Redesign"></a>
+						</div>
+
+						
+
+
+						<!-- <div class="picturetile">
+							<div class="overlay 8">
+								<div class="arttitle">Summer in the Studio</div>
+							</div>
+							<img class="picture" src="assets/img/art/fan.jpg">
+						</div> -->
+					</div>
+				</div>
+				<div class="art">
+					<div class="picturecontainer">
+						<div class="picturetile">
+							<div class="overlay 1">
+								<div class="arttitle">Analysis</div>
+							</div>
+							<img class="picture" src="assets/img/art/plot.png">
+						</div>
+
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
 	</body>
 	<script type="text/javascript" src="assets/js/script.js"></script>
 </html>
