@@ -3,7 +3,7 @@ $(document).ready(function() {
 	var homepage = true
     
     if ($(window).width() < 768) {
-        window.location.replace("https://testingoutcode.github.io");
+        window.location.replace("https://testingoutcode.github.io/index.html");
     }
 
 	// hover effects on home page
