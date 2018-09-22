@@ -3,7 +3,7 @@ $(document).ready(function() {
 	var homepage = true
     
     if ($(window).width() < 768) {
-        window.location.replace("https://emilyzhong.github.io/mobile.html");
+        window.location.replace("https://testingoutcode.github.io");
     }
 
 	// hover effects on home page
