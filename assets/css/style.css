@@ -253,7 +253,7 @@
 	right: 50%;
 	transform: translateY(-50%) translateX(50%);
 	overflow: hidden;
-	text-align: left;
+	text-align: center;
 	padding: 30px 10px;
 }
 
