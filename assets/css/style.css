@@ -259,6 +259,7 @@
 
 .textgroup {
 	display: none;
+	align: left;
 }
 
 .behance {
@@ -269,6 +270,8 @@
 .descriptitle {
 	font-size: 24px;
 	font-weight: 400;
+	align: center;
+	padding-bottom: 10%;
 }
 
 .mediums {
@@ -425,7 +428,7 @@ body, html {
 
 	#texttitle {
 		font-size: 18px;
-		margin-bottom: 10px;
+		margin-bottom: 10%;
 	}
 
 	#navbar {
@@ -514,6 +517,7 @@ body, html {
 
 	.descriptitle {
 		font-size: 14px;
-		padding-bottom: 25px;
+		align: center;
+		padding-bottom: 10%;
 	}
 }
