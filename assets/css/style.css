@@ -418,7 +418,7 @@ body, html {
 	#about-textcontainer {
 		font-size: 12px;
 		width: 90%;
-		text-align: center;
+		text-align: left;
 		top: 50%;
 		transform: translateY(-50%);
 	}
