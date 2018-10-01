@@ -23,13 +23,13 @@
 #leftcolor {
 	position: absolute;
 	right: 0;
-	background-color: rgb(102, 153, 255);
+	background-color: rgb(99,205,255);
 }
 
 #rightcolor {
 	position: absolute;
 	left: 0;
-	background-color: rgb(255, 153, 102);
+	background-color: rgb(255,112,40);
 }
 
 .name {
